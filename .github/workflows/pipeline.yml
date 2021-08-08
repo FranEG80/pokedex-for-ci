@@ -20,7 +20,7 @@ jobs:
       - name: Lint
         run: npm run eslint
       - name: Build
-        run: npm run Build
+        run: npm run bgit uild
       - name: Test
         run: npm run test 
       - name: E2E Test
