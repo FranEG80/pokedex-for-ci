@@ -1,4 +1,6 @@
 dist/
 node_modules/
-
-package-lock-json
+cypress/plugins
+cypress/support
+cypress/videos
+cypress/screenshots
