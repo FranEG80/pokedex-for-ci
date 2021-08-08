@@ -1,4 +1,4 @@
-/* global cy */
+// /* global cy */
 
 // describe('Pokedex', function () {
 //   it('frongpage can be opened', function () {
