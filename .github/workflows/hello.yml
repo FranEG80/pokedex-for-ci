@@ -14,6 +14,10 @@ jobs:
     runs-on: ubuntu-18.04
     # los pasos que se van a dar
     steps:
+    # los steps es un array y cada - es un elemento del array
       - name: Echo the message
         run: |
           echo "hola Fran!"
+      - name:  Dime la fecha
+        run: date
+      - run: ls -l
