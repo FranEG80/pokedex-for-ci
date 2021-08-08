@@ -1,0 +1,19 @@
+# tiene que tener un nombre
+name: Say Hello
+
+# un evento que lo dispare
+on:
+  push:
+    branches:
+    # en donde
+      - main
+
+jobs:
+  hello_world:
+    # en que sistema se va a ejecutar
+    runs-on: ubuntu-18.04
+    # los pasos que se van a dar
+    steps:
+      - name: Echo the message
+        run: |
+          echo "hola Fran!"
